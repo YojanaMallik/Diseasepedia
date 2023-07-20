@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="shortcut icon" href="https://chat.openai.com/favicon.ico" type="image/x-icon">
+    <title>Diseasepedia</title>
+</head>
+
+<body style="background-image: url('/static/images/bg.avif'); background-size: cover; background-repeat: no-repeat; min-height: 100vh;">
+    <!-- Your content goes here -->
+    <div class="container">
+    <div class="flex h-[100vh] text-white flex-col">
+        
+        <div class="right1 mt-5 flex justify-center items-center flex-col">
+
+            <div class="text-center w-full text-4xl font-bold text-black ">
+                Diseasepedia: Your Bridge to Medical Insights
+            </div>
+
+            
+            
+            
+
+        
+            <div class="box1 m-auto py-7 flex justify-start w-[50vw] items-center space-x-6">
+                <div class="input text-center w-full my-24 mx-24 flex justify-center items-center">
+                    <div class="w-full relative ">
+                        <input class="w-full p-4 bg-blue-950 rounded-md" placeholder="Explore the World of Medicine: Ask Your Health Questions" type="text" name="text" id="questionInput">
+                        <button id="sendButton" class="absolute top-1/2 right-3 transform -translate-y-1/2 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none" class="h-4 w-4 m-1 md:m-0" stroke-width="2">
+                                <path d="M.5 1.163A1 1 0 0 1 1.97.28l12.868 6.837a1 1 0 0 1 0 1.766L1.969 15.72A1 1 0 0 1 .5 14.836V10.33a1 1 0 0 1 .816-.983L8.5 8 1.316 6.653A1 1 0 0 1 .5 5.67V1.163Z" fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="box2  bg-blue-950 py-7 flex justify-center w-full items-center">
+                <div class="box w-[40vw] flex justify-start space-x-6">
+                    <img class="w-9 h-9" src="https://chat.openai.com/favicon.ico" alt="">
+                    <div class="flex space-y-4 flex-col">
+                        <div id="question1">Question</div>
+                        <div id="solution">Loading..</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    
+    </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

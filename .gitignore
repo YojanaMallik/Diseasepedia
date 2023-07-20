@@ -1,0 +1,4 @@
+# Ignore virtual environment folder
+myenv/
+# Ignore node_modules folder
+node_modules/
